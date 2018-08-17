@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple JavaScript Quiz</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <script src="JavaScript/script.js"></script>
+</head>
+
+    <body>
+        <div id="container">
+            <header>
+                <h1>Simple JavaScript Quiz</h1>
+                <p>Test your knowledge in <strong>JavaScript Fundamentals</strong></p>
+            </header>
+            <section>
+                <div id="results"></div>
+                <form name="quizForm" onsubmit="return submitAnswers()">
+                    <h3>1. In which HTML element do we put JavaScript code?</h3>
+                    <input type="radio" name="q1" value="a" id="q1a">A. &lt;js&gt;<br>
+                    <input type="radio" name="q1" value="b" id="q1a">B. &lt;script&gt;<br>
+                    <input type="radio" name="q1" value="c" id="q1a">C. &lt;body&gt;<br>
+                    <input type="radio" name="q1" value="d" id="q1a">D. &lt;link&gt;<br>
+
+                    <h3>2. How would you write "hello" in an alert box?</h3>
+                    <input type="radio" name="q2" value="a" id="q2a">A. msg("Hello");<br>
+                    <input type="radio" name="q2" value="b" id="q2b">B. alertBox("Hello");<br>
+                    <input type="radio" name="q2" value="c" id="q2c">C. document.write("Hello");<br>
+                    <input type="radio" name="q2" value="d" id="q2d">D. alert("Hello");<br>
+
+                    <h3>3. JavaScript is directly related to the "Java" programming language.</h3>
+                    <input type="radio" name="q3" value="a" id="q3a">A. True<br>
+                    <input type="radio" name="q3" value="b" id="q3b">B. False<br>
+
+                    <h3>4. Which HTML attribute is used to reference an external JavaScript file?</h3>
+                    <input type="radio" name="q4" value="a" id="q4a">A. src<br>
+                    <input type="radio" name="q4" value="b" id="q4b">B. rel<br>
+                    <input type="radio" name="q4" value="c" id="q4c">C. type<br>
+                    <input type="radio" name="q4" value="d" id="q4d">D. href<br>
+
+                    <h3>5. Who is your favorite wrestler?</h3>
+                    <input type="radio" name="q5" value="a" id="q5a">A. Kane<br>
+                    <input type="radio" name="q5" value="b" id="q5b">B. The Undertaker<br>
+                    <input type="radio" name="q5" value="c" id="q5c">C. Brock Lesnar<br>
+                    <input type="radio" name="q5" value="d" id="q5d">D. Triple H<br>
+                    <br><br>
+                    <input class="btn-style" type="submit" value="Submit Answers">
+                </form>
+            </section>
+            <footer>
+                <p>Copyright&copy; 2018, All Rights Reserved</p>
+            </footer>
+        </div>
+    </body>
+
+</html>

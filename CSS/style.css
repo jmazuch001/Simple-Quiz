@@ -1,0 +1,64 @@
+body {
+    background: #000000e8;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+#container{
+    width: 60%;
+    background: #5c5c5c77;
+    margin: 20px auto; 
+    /* setting to auto for the right and left will push content into the middle */
+    /* Also, note that the page is fully responsive */
+    overflow: auto;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(233, 20, 84, 0.911);
+}
+
+header{
+    text-align: center;
+    border-bottom: #fff dashed 1px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    padding: 0;
+    margin-top: 5px;
+    color: black;
+}
+
+section {
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+}
+
+input[type='submit']{
+    background: rgba(0, 0, 0, 0.555);
+    border: 0;
+    color: rgb(194, 48, 80);
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#results h3 {
+    background: rgb(194, 48, 80);;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span {
+    color: black;
+    font-weight: bold;
+}
+/* .btn-style {
+    background-color: rgba(0, 0, 0, 0.185);
+    color: rgba(226, 47, 77, 0.925);
+} */
+/* Can style the button this way with a class, also */
